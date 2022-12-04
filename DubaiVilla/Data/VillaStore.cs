@@ -8,7 +8,7 @@ namespace DubaiVilla.Data
         public static List<VillaDTO> villaList = new List<VillaDTO>
             {
                 new VillaDTO{id=1, Name="Pool View"},
-                new VillaDTO{id=1, Name="Pool View"},
+                new VillaDTO{id=2, Name="Sea View"},
             };
     }
 }
