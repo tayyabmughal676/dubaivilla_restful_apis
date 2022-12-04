@@ -9,5 +9,4 @@ namespace DubaiVilla.Models
 
         public DateTime createdDate { get; set; }
     }
-
 }

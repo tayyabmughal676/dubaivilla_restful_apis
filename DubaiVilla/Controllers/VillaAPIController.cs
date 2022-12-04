@@ -1,4 +1,5 @@
 ﻿using System;
+using DubaiVilla.Data;
 using DubaiVilla.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,15 +12,7 @@ namespace DubaiVilla.Controllers
         [HttpGet]
         public IEnumerable<VillaDTO> GetVillas()
         {
-            return new List<VillaDTO>
-            {
-                new VillaDTO{id=1, Name="Pool View"},
-                new VillaDTO{id=1, Name="Pool View"},
-            };
+            return VillaStore.villaList;
         }
-
-
-
     }
 }
-
